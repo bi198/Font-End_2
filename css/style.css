@@ -1,0 +1,59 @@
+body{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    
+}
+header.top-header{
+    position: relative;
+
+}
+#top{
+    position: absolute;
+    fill: #008ce0;
+    mix-blend-mode: multiply;
+}
+#bottom{
+    fill: #fff;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+.myBody-btn{
+ text-align: center;
+ width: auto;
+ height: 300px;
+ 
+}
+.myBody{
+    position: relative;
+    margin-top: 420px;
+   }
+   .bottom-left-Col{
+       margin-top: 60px;
+   }
+.middle-btn{
+    display: inline-block;
+    padding: 30px 100px;
+    background: yellow;
+    border-radius: 45px;
+    box-shadow: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 3;
+    animation: ani 2s linear infinite;
+}
+
+@keyframes ani{
+    0%{
+        box-shadow: 0 0 0 8px rgba(255,220,46,1);
+    }
+    50%{
+        box-shadow: 0 0 0 25px rgba(255,220,46, .5);
+    }
+    100%{
+        box-shadow: 0 0 0 50px rgba(255,220,46, .2);
+    }
+
+}
